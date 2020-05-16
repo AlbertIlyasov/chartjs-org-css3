@@ -12,32 +12,12 @@ body {
 }
 
 :root {
-  --maxWidth: 992px;
-  --maxWidth1: 1200px;
-  --minWidth: 750px;
-  --minWidth1: 900px;
+  --maxWidth: 1100px;
+  --minWidth: 900px;
   --headerHeight: 47px;
   --footerHeight: 25px;
   --chartTitleFontSize: 15px;
   --doughnutLegendPaddingRight: 30px;
-}
-@media screen {
-  :root {
-    --maxWidth: 992px;
-    --minWidth: 992px;
-  }
-}
-@media screen1 {
-  :root {
-    --maxWidth: 900px;
-    --minWidth: 900px;
-  }
-}
-@media print {
-  :root {
-    --maxWidth: 900px;
-    --minWidth: 900px;
-  }
 }
 
 .charts-container {
