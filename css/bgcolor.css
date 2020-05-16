@@ -1,0 +1,148 @@
+@media screen {
+
+.chart-canvas {
+  background: #f2e6ff;
+  border: 1px solid gray;
+}
+
+.container {
+  background: #e6ffe6;
+}
+
+.charts-container {
+  background: green;
+  /* border: 10px solid red; */
+}
+
+.charts__header {
+  background: pink;
+}
+
+.charts__title {
+  background: red;
+}
+
+.photo-header {
+  background: brown;
+}
+
+.photo-header__date {
+  background: red;
+}
+
+.photo-body {
+  background: skyblue;
+}
+
+.photo-body__item {
+  background: brown;
+}
+
+.charts__body {
+  background: yellow;
+}
+
+.doughnut-chart-wrapper {
+  background: #836286;
+  border: 2px solid black;
+}
+
+.doughnut-chart {
+  background: purple;
+  border: 2px solid red;
+}
+
+.doughnut-chart__title {
+  background: blue;
+}
+
+.main-legend {
+  background: gold;
+}
+
+.main-legend__title {
+  background: pink;
+}
+
+.main-legend__list {
+  background: lime;
+}
+
+.main-legend-item {
+  background: cyan;
+}
+
+.main-legend-item__color {
+}
+
+.stacked-chart-wrapper {
+  background: #b3ffcc;
+}
+
+.stacked-chart {
+  background: brown;
+}
+
+.stacked-chart__title {
+  background: pink;
+}
+
+
+.legend-wrapper {
+  background: lime;
+}
+
+.legend {
+  background: cornsilk;
+}
+
+.legend__title {
+  background: brown;
+}
+
+.legend-item-wrapper {
+  background: skyblue;
+}
+
+.legend-item {
+  background: darkred;
+}
+
+.legend-item__tеxt {
+  background: green;
+}
+
+.legend-item__title {
+  background: pink;
+}
+
+.legend-item__descr {
+  background: skyblue;
+}
+
+.charts__footer {
+  background: #66ff66;
+}
+
+.photo__footer {
+  background: #6666ff;
+}
+
+.stacked-chart {
+  background: #b3c6ff;
+}
+
+.stacked-legend {
+  background: lime;
+  border: 2px solid black;
+}
+
+.stacked-legend__title {
+  background: silver;
+}
+
+.stacked-legend__descr {
+  background: skyblue;
+}
+
+}

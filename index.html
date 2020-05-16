@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Вёрстка</title>
+  <link rel="stylesheet" href="css/index.css">
+  <!-- <link rel="stylesheet" href="css/bgcolor.css"> -->
+</head>
+<body>
+  <div class="charts-container">
+    <div class="charts">
+      <div class="charts__header">
+        <h1 class="charts__title">
+          Текст, текст, текст
+        </h1>
+      </div>
+      <div class="charts__body">
+        <div class="doughnut-chart-wrapper">
+          <div class="doughnut-chart">
+            <h2 class="doughnut-chart__title">Индекс гигиены</h2>
+            <canvas id="canvas-doughnut" class="chart-canvas"></canvas>
+          </div>
+          <div class="legend-wrapper">
+            <div class="legend">
+              <h2 class="legend__title">Группа риска</h2>
+              <div class="legend-item-wrapper">
+                <div class="legend-item">
+                  <div class="legend-item__number">3</div>
+                  <div class="legend-item__tеxt">
+                    <h3 class="legend-item__title">
+                      Текст текст текст
+                    </h3>
+                    <div class="legend-item__descr">
+                      Текст текст текст текст
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="legend-item-wrapper">
+                <div class="legend-item">
+                  <div class="legend-item__number">2</div>
+                  <div class="legend-item__tеxt">
+                    <h3 class="legend-item__title">
+                      Текст текст текст
+                    </h3>
+                    <div class="legend-item__descr">
+                      Текст текст текст текст
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="legend-item-wrapper">
+                <div class="legend-item">
+                  <div class="legend-item__number">1</div>
+                  <div class="legend-item__tеxt">
+                    <h3 class="legend-item__title">
+                      Текст текст текст
+                    </h3>
+                    <div class="legend-item__descr">
+                      Текст текст текст текст
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-legend">
+          <h4 class="main-legend__title">
+            Оценка времени образования зубного налёта:
+          </h4>
+          <ul class="main-legend__list">
+            <li class="main-legend-item main-legend-item1">
+              <span class="main-legend-item__color main-legend-item1__color">
+              </span>
+              20% - месяц
+            </li>
+            <li class="main-legend-item main-legend-item2">
+              <span class="main-legend-item__color main-legend-item2__color">
+              </span>
+              8% - неделя
+            </li>
+            <li class="main-legend-item main-legend-item3">
+              <span class="main-legend-item__color main-legend-item3__color">
+              </span>
+              6% - сутки
+            </li>
+            <li class="main-legend-item main-legend-item4">
+              <span class="main-legend-item__color main-legend-item4__color">
+              </span>
+              66% - не обнаружен
+            </li>
+          </ul>
+        </div>
+        <div class="stacked-chart-wrapper">
+          <div class="stacked-chart">
+            <h2 class="stacked-chart__title">История наблюдений</h2>
+            <canvas id="canvas-stacked" class="chart-canvas"></canvas>
+          </div>
+          <div class="stacked-legend">
+            <h2 class="stacked-legend__title">
+              Группа риска №1
+            </h2>
+            <div class="stacked-legend__descr">
+              <p>
+                Текст, текст, текст, текст, текст
+                текст, текст, текст, текст, текст
+                текст, текст, текст, текст, текст
+                текст, текст, текст, текст, текст.
+              </p>
+              <p>
+                Текст, текст, текст, текст, текст
+                текст, текст, текст, текст, текст
+                текст, текст, текст, текст, текст
+                текст, текст, текст, текст, текст.
+              </p>
+              <p>
+                Текст, текст, текст, текст, текст
+                текст, текст, текст, текст, текст
+                текст, текст, текст, текст, текст
+                текст, текст, текст, текст, текст.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="charts__footer">
+        Текст, текст, текст, текст, текст
+      </div>
+    </div>
+    <div class="photo">
+      <div class="photo-header">
+        <h2 class="photo-header__date">ДД.ММ.ГГГГ / ЧЧ:ММ:СС</h2>
+      </div>
+      <div class="photo-body">
+        <div class="photo-body__item">
+          <img src="img/photo.png" alt="Фото" class="photo-body__img"/>
+        </div>
+        <div class="photo-body__item">
+          <img src="img/photo.png" alt="Фото" class="photo-body__img"/>
+        </div>
+        <div class="photo-body__item">
+          <img src="img/photo.png" alt="Фото" class="photo-body__img"/>
+        </div>
+      </div>
+      <div class="photo__footer">
+        текст, текст, текст, текст
+      </div>
+    </div>
+  </div>
+  <script>
+    const chartDataJson = '[20,8,6]'
+  </script>
+  <script src="js/Chart.min.js"></script>
+  <script src="js/utils-chart.js"></script>
+  <script src="js/doughnut-chart.js"></script>
+  <script src="js/stacked-chart.js"></script>
+  <script src="js/run-chart.js"></script>
+</body>
+</html>
